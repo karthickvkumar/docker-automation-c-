@@ -1,0 +1,122 @@
+{
+  "login": {
+    "portalURL": "https://portaltest.devc3.com/",
+    "userName": "user@automation.qa",
+    "password": "Test@123",
+    "ssomode": true,
+    "browser": "firefox", //supported browser - chrome, firefox, edge
+    "companyID": "94363",
+    "requiredDatabaseInteraction": false,
+    "skipDownloadBrowserDriver": true
+  },
+  "departmentFilter": {
+    "name": "department_coverpage1",
+    "datePickerType": "Last 30 Days"
+  },
+  "downloadFolder": "TestData\\Files\\Downloads",
+  "activityFields": {
+    "datePickerType": "Last 30 Days",
+    "showAll": "Show All"
+  },
+  "adminAccount": {
+    "email": "testadmin@automation.qa",
+    "first_name": "Test Automation",
+    "last_name": "Admin",
+    "password": "efweEfew@541554",
+    "username": "testadmin_automation",
+    "department_level": "Company Level",
+    "time_zone": "(GMT-12:00) International Date Line West",
+    "read_only_access": false,
+    "can_access_fax_pool_management": true,
+    "can_access_add_inventory": true,
+    "can_access_settings": true,
+    "can_access_company_settings": true,
+    "can_access_add_department": true,
+    "can_access_department_settings": true,
+    "can_manage_administrators": true,
+    "can_access_receiving_options": true,
+    "can_access_sending_options": true,
+    "can_access_add_user_account": true,
+    "can_access_add_fax_lync": false,
+    "can_access_bulk_add_users": true,
+    "can_access_user_account_settings": true,
+    "can_access_reports": true,
+    "can_access_outbound_activity": true,
+    "can_access_inbound_activity": true,
+    "can_access_accounting": true,
+    "can_access_fax_image": true,
+    "can_access_workflow_settings": true,
+    "can_manage_workflow_permissions": true,
+    "can_access_security_policy": true,
+    "can_manage_security_policy": true,
+    "can_access_inbound_header_footer_settings": true,
+    "can_manage_inbound_header_footer_settings": true,
+    "can_access_emergency_contacts_settings": true,
+    "can_manage_emergency_contacts_settings": true,
+    "can_manage_outbound_block_list_settings": true,
+    "can_access_Update_password_self": true
+  },
+  "RequestInventory": {
+    "requestState": "Arizona",
+    "requestStateToSelect": "Florida",
+    "requestFaxAreaCityCode": "602-Phoenix",
+    "requestFaxAreaCityCodeToSelect": "305-Miami",
+    "requestNoOfDID": "1",
+    "inventoryListItemToAdd": "+1 2065082421"
+  },
+  "NumberPortRequest": {
+    "numberportingfirstname": "First Name",
+    "numberportinglastname": "Last Name",
+    "numberportingphonenumber": "5122457841",
+    "numberportingemail": "numberporting@demo.in",
+    "numberportingcountrycode": "1",
+    "numberportingsubscribernumber": "5122457842",
+    "numberportingsameas_numbertoport": "True",
+    "numberportingbusinessname": "Business Name",
+    "numberportingaddress1": "Address1",
+    "numberportingaddress2": "Address2",
+    "numberportingaddress3": "Address3",
+    "numberportingcity": "city",
+    "numberportingstate": "state",
+    "numberportingZip": "51254",
+    "numberportingspecialinstructions": "special instructions",
+    "numberportingaddnotes": "notes instructions",
+    "numberportingportFileListName": "port.txt",
+    "numberPortingPath": "TestData\\Files\\CoverPages",
+    "numberportingportFileListpath": "Files\\PortRequest\\port.txt",
+    "loaTemplateFolderPath": "TestData\\Files\\LOATemplates\\Canada Toll Number.pdf"
+  },
+  "userAccount": {
+    "firstName": "Test Automation",
+    "lastName": "User",
+    "password": "efweEfew@541554"
+  },
+  "contactDetail": {
+    "address1": "Test Address 1",
+    "address2": "Test Address 2",
+    "city": "Test City",
+    "country": "Test Country",
+    "state": "Test State",
+    "zipCode": "134234234",
+    "phoneNo": "2452345435",
+    "timeZone": "(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi"
+  },
+  "customFields": {
+    "customField1": "Custom Field 1",
+    "customField2": "Custom Field 2",
+    "customField3": "Custom Field 3",
+    "customField4": "Custom Field 4"
+  },
+  "CoverPage": {
+    "coverpagePath": "TestData\\Files\\CoverPages",
+    "coverpagePathDoc": "Files\\CoverPages\\coverpage sample Automation.docx",
+    "coverPagePathPdf": "Files\\CoverPages\\coverpage sample Automation.pdf",
+    "coverpageName": "coverpage sample Automation",
+    "renamedCoverPageName": "renamed coverpage sample"
+  },
+  "exportAllCsv": {
+    "export_all": "Account Export*.csv",
+    "exportall_phonenumber": "FaxNumber Export*.csv",
+    "export_useraccountcsv": "test_user0946f@concord.net"
+  }
+}

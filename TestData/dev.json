@@ -1,0 +1,388 @@
+{
+  "login": {
+    "portalURL": "https://portaltest.devc3.com/",
+    "userName": "user@automation.qa",
+    "password": "Test@123",
+    "ssomode": true,
+    "browser": "chrome", //supported browser - chrome, firefox, edge
+    "companyID": "94363",
+    "requiredDatabaseInteraction": false,
+    "skipDownloadBrowserDriver": true
+  },
+  "userDetail": {
+    "firstName": "Basic User",
+    "lastName": "Last Name",
+    "adminFirstName": "Basic Admin",
+    "password": "efweEfew@541554",
+    "invalidUserName": "TestUserName",
+    "invalidPassword": "123",
+    "receivingEmail": "testreceiving@automation.com",
+    "sendingEmail": "testsending@automation.com",
+    "notificationEmail": "testnotification@automation.com",
+    "usingIWS": "Use Inbound Web Service",
+    "usingEmail": "Receive fax using email",
+    "existing_useraccount": "karthickfaxibox@concord.net",
+    "edit_username": "karthickfaxibox@concord.net",
+    "documentStoreTitle": "Application Selection",
+    "cloudfax_tooltip": "Inbound and Outbound faxing",
+    "curry_tooltip": "Referrals and Intake workflow processing",
+    "faxinbox_tooltip": "Document organizer with viewing and annotation capabilities",
+    "nextstep_tooltip": "Document Workflow for processing and collaboration with intelligent data",
+    "multiple_forwarding_user": "testuser@demo.in",
+    "invalidEmail": "testuser@@concord.net"
+  },
+  "userLoginCredential": {
+    "accountName": "mbx17429900",
+    "password": "Test@123",
+    "newPassword": "NewTest@123"
+  },
+
+  "addoutboundNumbertoBlocklist": {
+    "faxLookupNumber": "12345678912",
+    "addFaxNumberToBlock": "17931115489",
+    "userName": "test_admincf4fa@concord.net",
+    "password": "test@2023"
+  },
+
+  "downloadFolder": "TestData\\Files\\Downloads",
+
+  "sohoUserLoginCredential": {
+    "accountName": "mbx14378014",
+    "password": "test@2023",
+    "newPassword": "NewTest@123"
+  },
+  "sohouserAccount": {
+    "email": "testuser@automation.qa",
+    "firstName": "Soho Automation",
+    "lastName": "User",
+    "password": "User@1234",
+    "username": "testuser_automation",
+    "mbx_number": "",
+    "document_store": "cloudfax",
+    "department_level": "Company Level",
+    "no_fax_required": true,
+    "coverpage": "Concord Default"
+  },
+  "exportAllCsv": {
+    "export_all": "Account Export*.csv",
+    "exportall_phonenumber": "FaxNumber Export*.csv",
+    "export_useraccountcsv": "test_user0946f@concord.net"
+  },
+
+  "exportInventory": {
+    "export": "FaxNumber Inventory Export*.csv"
+  },
+
+  "sohofaxSettings": {
+    "faxPageSeperation": false,
+    "faxType": "PDF",
+    "faxNumber": "12578963587",
+    "messageforwarding": "Receiving fax using email",
+    "sendingEmail": "Soads@concord.net",
+    "receivingEmail": "vkrishnamurthy@concord.net",
+    "faxTypeTIFHires": "TIF-HiRes",
+    "coverPageType": "Concord Default",
+    "testCoverPageType": "TEST COVER - 1",
+    "dateFormatType": "(GMT-08:00) Pacific Time (US & Canada)",
+    "chooseDateFormat": "MM-d-yyyy (02-15-2012)",
+    "timeFormat": "hh:mm tt (01:15 PM)",
+    "time_zone": "(GMT-12:00) International Date Line West"
+  },
+
+  "departmentFilter": {
+    "name": "department_coverpage1",
+    "datePickerType": "Last 30 Days"
+  },
+
+  "datePicker": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "lastSevenDays": "Last 7 Days",
+    "lastThirtyDays": "Last 30 Days",
+    "lastMonth": "This Month",
+    "thisYear": "Last Month",
+    "lastYear": "This Year",
+    "customRange": "Custom Range"
+  },
+  "department": {
+    "deptAdminUserName": "dept6@2023",
+    "deptPassword": "test@2023",
+    "name": "Test Automation",
+    "email": "testadmin_automation",
+    "password": "Test@123"
+  },
+  "userAccount": {
+    "email": "testuser@automation.qa",
+    "firstName": "Test Automation",
+    "lastName": "User",
+    "password": "User@1234",
+    "username": "testuser_automation",
+    "mbx_number": "",
+    "document_store": "cloudfax",
+    "department_level": "Company Level",
+    "no_fax_required": true,
+    "coverpage": "Concord Default"
+  },
+  "adminAccount": {
+    "email": "testadmin@automation.qa",
+    "first_name": "Test Automation",
+    "last_name": "Admin",
+    "password": "efweEfew@541554",
+    "username": "testadmin_automation",
+    "department_level": "Company Level",
+    "time_zone": "(GMT-12:00) International Date Line West",
+    "read_only_access": false,
+    "can_access_fax_pool_management": true,
+    "can_access_add_inventory": true,
+    "can_access_settings": true,
+    "can_access_company_settings": true,
+    "can_access_add_department": true,
+    "can_access_department_settings": true,
+    "can_manage_administrators": true,
+    "can_access_receiving_options": true,
+    "can_access_sending_options": true,
+    "can_access_add_user_account": true,
+    "can_access_add_fax_lync": false,
+    "can_access_bulk_add_users": true,
+    "can_access_user_account_settings": true,
+    "can_access_reports": true,
+    "can_access_outbound_activity": true,
+    "can_access_inbound_activity": true,
+    "can_access_accounting": true,
+    "can_access_fax_image": true,
+    "can_access_workflow_settings": true,
+    "can_manage_workflow_permissions": true,
+    "can_access_security_policy": true,
+    "can_manage_security_policy": true,
+    "can_access_inbound_header_footer_settings": true,
+    "can_manage_inbound_header_footer_settings": true,
+    "can_access_emergency_contacts_settings": true,
+    "can_manage_emergency_contacts_settings": true,
+    "can_manage_outbound_block_list_settings": true,
+    "can_access_Update_password_self": true
+  },
+  "curryUserDetail": {
+    "first_name": "Test Curry User",
+    "last_name": "RM",
+    "password": "Test@2021",
+    "time_zone": "(GMT-07:00) Mountain Time (US & Canada)",
+    "email": "testcurryuser@demo.in",
+    "address_1": "Test address 1",
+    "address_2": "Test address 2",
+    "city": "Test city",
+    "state": "Test State",
+    "zip_code": "600123",
+    "fax_number": "18456921475",
+    "phone_number": "24578414",
+    "custom_field_1": "Test custom field 1",
+    "custom_field_2": "Test custom field 2",
+    "custom_field_3": "Test custom field 3",
+    "custom_field_4": "Test custom field 4"
+  },
+  "NumberPortRequest": {
+    "numberportingfirstname": "First Name",
+    "numberportinglastname": "Last Name",
+    "numberportingphonenumber": "5122457841",
+    "numberportingemail": "numberporting@demo.in",
+    "numberportingcountrycode": "1",
+    "numberportingsubscribernumber": "5122457842",
+    "numberportingsameas_numbertoport": "True",
+    "numberportingbusinessname": "Business Name",
+    "numberportingaddress1": "Address1",
+    "numberportingaddress2": "Address2",
+    "numberportingaddress3": "Address3",
+    "numberportingcity": "city",
+    "numberportingstate": "state",
+    "numberportingZip": "51254",
+    "numberportingspecialinstructions": "special instructions",
+    "numberportingaddnotes": "notes instructions",
+    "numberportingportFileListName": "port.txt",
+    "numberPortingPath": "TestData\\Files\\CoverPages",
+    "numberportingportFileListpath": "Files\\PortRequest\\port.txt",
+    "loaTemplateFolderPath": "TestData\\Files\\LOATemplates\\Canada Toll Number.pdf"
+  },
+  "RequestInventory": {
+    "requestState": "Arizona",
+    "requestStateToSelect": "Florida",
+    "requestFaxAreaCityCode": "602-Phoenix",
+    "requestFaxAreaCityCodeToSelect": "305-Miami",
+    "requestNoOfDID": "1",
+    "inventoryListItemToAdd": "+1 2065082421"
+  },
+  "contactDetail": {
+    "address1": "Test Adress 1",
+    "address2": "Test Adress 2",
+    "city": "Test City",
+    "country": "Test Country",
+    "state": "Test State",
+    "zipCode": "134234234",
+    "phoneNo": "2452345435",
+    "contactInfo": "testuser@demo.in",
+    "timeZone": "(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi"
+  },
+  "customFields": {
+    "customField1": "Custome Field 1",
+    "customField2": "Custome Field 2",
+    "customField3": "Custome Field 3",
+    "customField4": "Custome Field 4",
+    "userDetail": "testuser@demo.in"
+  },
+  "activityFields": {
+    "datePickerType": "Last 30 Days",
+    "showAll": "Show All"
+  },
+  "reports": {
+    "inboundSuccessFaxCount": "1,469",
+    "inboundFailedFaxCount": "0",
+    "inboundTotalFaxesCount": "1,469",
+    "inboundTotalPagesCount": "2,485",
+    "inboundAverageFaxPerPageCount": "1.69",
+    "outboundSuccessFaxCount": "762",
+    "outboundFailedFaxCount": "258",
+    "outboundTotalFaxesCount": "1,020",
+    "outboundTotalPagesCount": "1,342",
+    "outboundAverageFaxPerPageCount": "1.32"
+  },
+  "faxSettings": {
+    "faxPageSeperation": false,
+    "faxType": "PDF",
+    "faxNumber": "12578963587",
+    "messageforwarding": "Receiving fax using email",
+    "sendingEmail": "Soad@concord.net",
+    "receivingEmail": "vkrishnamurthy@concord.net",
+    "faxTypeTIFHires": "TIF-HiRes",
+    "coverPageType": "Concord Default",
+    "testCoverPageType": "TEST COVER - 1",
+    "dateFormatType": "(GMT-08:00) Pacific Time (US & Canada)",
+    "chooseDateFormat": "MM-d-yyyy (02-15-2012)",
+    "timeFormat": "hh:mm tt (01:15 PM)"
+  },
+  "securityPolicy": {
+    "minPassword": "10",
+    "maxPassword": "18",
+    "minAlphaCharacter": "3",
+    "minUpperAlphaCharacter": "1",
+    "minNumericCharacter": "2",
+    "minSpecialCharacter": "2",
+    "passwordHistoryCount": "6",
+    "minPasswordAge": "3d (3)",
+    "maxPasswordAge": "13w 1d (92)",
+    "excludePersonalInfo": "Yes",
+    "lockAttempt": "5",
+    "lockTimeout": "20m (20)",
+    "sessionTimeout": "20m (20)",
+    "passwordByAdmin": "Yes",
+    "description": "Concord Custom Security Policy",
+    "policy": "Concord Basic Security Template (Defines Basic Security Rules)"
+  },
+  "inboundPendingReport": {
+    "forwardingAddress": "ftp://mail3.massoftware.com:21",
+    "customerId": "96262"
+  },
+  "userLoginList": [
+    {
+      "userName": "soad-concord",
+      "password": "Seema@123"
+    },
+    {
+      "userName": "testuser01@testdemo.com",
+      "password": "Test@123"
+    },
+    {
+      "userName": "vijitha@concordfax.com",
+      "password": "Test@2021"
+    },
+    {
+
+      "userName": "test_admincf4fa@concord.net",
+      "password": "test@2023"
+    }
+
+
+  ],
+
+  "emergencyContactList": [
+    {
+      "firstName": "Karthick",
+      "lastName": "Kumar",
+      "email": "karthick@concord.net",
+      "phone": "124578961",
+      "extn": "91"
+    },
+    {
+      "firstName": "Seema",
+      "lastName": "Oad",
+      "email": "seema@concord.net",
+      "phone": "24571856",
+      "extn": "91"
+    },
+    {
+      "firstName": "Prashant",
+      "lastName": "Taneja",
+      "email": "prashant@concord.net",
+      "phone": "145755226",
+      "extn": "91"
+    }
+  ],
+  "federatedPartners": {
+    "IdClaimType": "NameIdentifier",
+    "smartDetect": "Smart Detect",
+    "metadataAddress": "https://dev-adfs01.adfstest.internal/adfs/.well-known/openid-configuration",
+    "partnerName": "Ritesh federated company123412323",
+    "clientSecret": ""
+  },
+  "emergencyContact": {
+    "totalContact": 3,
+    "firstName": "Test Admin",
+    "lastName": "User",
+    "email": "testadmin@concord.net",
+    "phone": "124578961",
+    "extn": "91"
+  },
+  "departmentSearch": {
+    "departmentName": "department_coverpage1"
+  },
+  "UseraccountSearch": {
+    "contactEmail": "portal_automation_user_884aa0@concord.net",
+    "contactFax": "14160012249",
+    "contactName": "Automation User",
+    "contactPhone": "2452345435",
+    "country": "USA",
+    "customerId": "139993",
+    "custom1": "Custom Field 1",
+    "custom2": "Custom Field 2",
+    "custom3": "Custom Field 3",
+    "custom4": "Custom Field 4",
+    "faxnumber": "17931119752",
+    "firstName": "Basic User",
+    "lastName": "Last Name",
+    "receivingAddress": "test.concord.net",
+    "sendingAddress": "portal_automation_sending_1e1eb1@concord.net",
+    "username": "portal_automation_user_884aa0@concord.net"
+  },
+  "CoverPage": {
+    "coverpagePath": "TestData\\Files\\CoverPages",
+    "coverpagePathDoc": "Files\\CoverPages\\coverpage sample Automation.docx",
+    "coverPagePathPdf": "Files\\CoverPages\\coverpage sample Automation.pdf",
+    "coverpageName": "coverpage sample Automation",
+    "renamedCoverPageName": "renamed coverpage sample"
+
+  },
+
+  "customTab": {
+    "tokenOne": "%{Account}",
+    "tokenTwo": "MyHeaderText",
+    "tokenThree": "%{CallerNumber}",
+    "tokenOneSample": "138309",
+    "tokenThreeSample": "1224796355",
+    "timeZone": "(GMT-12:00) International Date Line West",
+    "chooseDateFormat": "MM-dd-yyyy (02-15-2012)",
+    "hourFormat": "HH:mm (13:15)"
+  },
+  "administratorSearch": {
+    "contactEmail": "nikeshgarg@concord.net",
+    "firstName": "Ashish",
+    "lastName": "Admin",
+    "username": "riteshtaksali@gmail.com"
+  }
+} 

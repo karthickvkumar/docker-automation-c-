@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<!-- Parameters used by tests at run time -->
+	<TestRunParameters>
+		<Parameter name="environment" value="prod.json" />
+		<Parameter name="logPath" value="C:\logs\portal.test" />
+		<Parameter name="screenshotPath" value="C:\logs\portal.test\Screenshots\" />
+        <Parameter name="videoRecordingPath" value="C:\logs\portal.test\VideoRecording\" />
+	</TestRunParameters>
+	
+	<!-- Configurations for data collectors -->
+	<DataCollectionRunSettings>
+		<DataCollectors>
+			<!-- Configuration for blame data collector -->
+			<DataCollector friendlyName="blame" enabled="True">
+			</DataCollector>
+		</DataCollectors>
+	</DataCollectionRunSettings>
+	
+	<!-- Configuration for loggers -->
+	<LoggerRunSettings>
+		<Loggers>
+			<Logger friendlyName="trx" enabled="True">
+			</Logger>
+			<Logger friendlyName="html" enabled="True">
+			</Logger>
+			<Logger friendlyName="blame" enabled="True" />
+		</Loggers>
+	</LoggerRunSettings>
+</RunSettings>
